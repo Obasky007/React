@@ -28,7 +28,7 @@ function Body() {
           {Jobs.map(({ title, id, description, salary, location, type }) => (
             <div
               key={id}
-              className="border border-gray-300 shadow-md rounded-2xl p-5 bg-white hover:shadow-2xl transition-shadow duration-300"
+              className="border border-gray-300 shadow-md rounded-2xl p-5 bg-white hover:shadow-2xl transition-shadow duration-300 mb-3"
             >
               <div className="flex justify-between items-center mb-3 flex-wrap gap-2">
                 <span className="text-xs sm:text-sm font-medium px-3 py-1 rounded-full bg-pink-600 text-white">
@@ -55,7 +55,7 @@ function Body() {
       </div> 
 
       <div>
-        
+
       </div>
     </div>
   );
