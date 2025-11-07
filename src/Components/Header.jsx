@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <div>
-      <nav className="bg-pink-700 flex md:justify-around justify-center md:gap-0 gap-7 items-center py-4 sticky shadow-2xl">
+      <nav className="bg-pink-700 flex md:justify-around justify-center md:gap-0 gap-7 items-center py-4 sticky top-0 shadow-2xl">
         <div className="flex justify-center items-center gap-3">
           <img src="vite.svg" alt="" className="w-10 h-10" />
           <h1 className="font-bold text-xl ">Vite</h1>
